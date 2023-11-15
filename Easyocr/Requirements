@@ -1,0 +1,6 @@
+Required Libreries- 
+
+1. easyocr - pip3 install easyocr 
+2. pandas  - pip3 install pandas
+
+Replace the "image_path" variable in ocr_1 with with new image path.
