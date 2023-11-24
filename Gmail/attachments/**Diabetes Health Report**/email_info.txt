@@ -1,0 +1,12 @@
+message no. - b'8'
+from - Mukesh Kumar <mukesh@mydigirecords.com>
+To - mukesh992203@gmail.com
+Date - Fri, 24 Nov 2023 09:46:56 +0530
+Subject - **Diabetes Health Report**
+contents:
+Content-Type: text/plain; charset="UTF-8"
+
+Dear Sir,
+
+health report
+

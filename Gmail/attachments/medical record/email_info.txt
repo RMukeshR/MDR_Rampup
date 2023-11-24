@@ -1,0 +1,11 @@
+message no. - b'5'
+from - Mukesh Kumar Ram <mukeshkumram@gmail.com>
+To - mukesh992203@gmail.com
+Date - Mon, 13 Nov 2023 13:19:50 +0530
+Subject - medical record
+contents:
+Content-Type: text/plain; charset="UTF-8"
+
+Hlw, Mukesh
+you are fine don't worry.
+
