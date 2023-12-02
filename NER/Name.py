@@ -3,7 +3,34 @@ def load(file):
         data =  file.read()
         return data
 
-print(load("/data1/home/mukeshram/Natural_Language_Processing/NER/data/text_data/outputfile.txt"))
+raw_text = load("/home/mukesh/Tensorflow/MDR_Rampup/NER/data/text_data/outputfile.txt")
 
+titles = ["Dr","MD", "Mr", "Mrs", "Ms", "Miss", "Mr and Mrs"]
 
-def Preprocessing(data):
+text = raw_text.strip()
+text = text.split("\n")
+text
+
+Doc = []
+patient =[]
+per =[]
+
+import string
+for i in text:
+    translator = str.maketrans('', '', string.punctuation)
+    text_no_punctuation = i.translate(translator)
+    k = text_no_punctuation.split(" ")
+
+    for j in k:
+        if j in titles:
+            per.append(i)
+
+for i in per:
+    if "Dr" in i:
+        Doc.append(i)
+    else:
+        patient.append(i)
+
+print("Doctor - ", Doc)
+print("patient - ", patient)
+
